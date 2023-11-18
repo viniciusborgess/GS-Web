@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+.userpassword {
+    font-size: 18px;
+}
+
+
+.box {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.botoesnav {
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.bloco2 {
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.imgs {
+  transition: transform 0.4s ease-in-out;
+}
+.imgs:hover {
+  transform: translateY(-10px); /* Ajuste a quantidade conforme necessário */
+}
+
+/*# sourceMappingURL=home.css.map */
