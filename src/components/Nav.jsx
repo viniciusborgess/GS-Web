@@ -14,13 +14,13 @@ function Nav() {
   return (
     <>
       <div style={userLogado == null ? { display: 'none' } : { display: 'block' }}>
-        <p className='usuario'>{userLogado != null ? `Usuario Logado:${userLogado.usuario}` : ''}</p>
-        <button onClick={handleLogout}>Logout</button>
+        <p className='usuario m-3'>{userLogado != null ? `Usuario Logado: ${userLogado.usuario}` : ''}</p>
+        <button onClick={handleLogout} className='logout m-3'>Logout</button>
       </div>
 
 
-      <Link to="/">Home</Link>
-      <Link to="/login">Login</Link>
+      <Link to="/" className='btn-link m-4 text-decoration-none'>Home</Link><br></br>
+      <Link to="/login" className='btn-link m-4 text-decoration-none'>Login</Link>
     </>
   );
 }

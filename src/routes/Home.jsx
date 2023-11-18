@@ -22,7 +22,7 @@ function Home() {
               </div>
               <div className="col-md-7 mt-5 d-flex flex-column">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores voluptas error iure ducimus amet labore facilis! Quia hic libero similique ea totam, quo repellendus fugit ut veniam mollitia eligendi numquam.
+                O aplicativo utiliza IA para analisar imagens da pele, capturadas por celulares, oferecendo avaliações preliminares de problemas dermatológicos. Integra um sistema de mapeamento de clínicas para facilitar consultas especializadas.
                 </p>
 
                 <button type="button" class="btn btn-outline-dark rounded-2 align-self-end">Mais Informações</button>
@@ -34,17 +34,18 @@ function Home() {
           <div className="col-md-5">
             <h3>O que é a solução?</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente eveniet nemo similique veritatis facere autem! Harum blanditiis nostrum eius architecto dolor repellendus cumque deleniti saepe nemo sint at impedit, tempore animi sapiente cupiditate
+              O aplicativo utilizará a câmera do celular para capturar imagens da pele, que serão analisadas por algoritmos de inteligência artificial. Com base nessa análise, o aplicativo oferecerá aos usuários uma avaliação preliminar de possíveis problemas dermatológicos, proporcionando uma opção acessível para monitorar e detectar condições de pele por meio de um dispositivo conveniente e de uso cotidiano.
             </p>
 
-            <h3>O que é a solução?</h3>
+            <h3>O que ela fará?</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente eveniet nemo similique veritatis facere autem! Harum blanditiis nostrum eius architecto dolor repellendus cumque deleniti saepe nemo sint at impedit, tempore animi sapiente cupiditate
+              o aplicativo fornecerá uma avaliação preliminar indicando possíveis condições de pele. Além disso, integrará um sistema de mapeamento de clínicas dermatológicas para facilitar o agendamento de consultas especializadas.
             </p>
 
-            <h3>O que é a solução?</h3>
+            <h3>Como funcionará?</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente eveniet nemo similique veritatis facere autem! Harum blanditiis nostrum eius architecto dolor repellendus cumque deleniti saepe nemo sint at impedit, tempore animi sapiente cupiditate quia debitis corporis delectus nulla! Accusamus, fugiat quasi eos quod blanditiis aspernatur eveniet tenetur. Maxime corrupti nulla dignissimos obcaecati laudantium exercitationem dolor tempora harum, architecto natusa harum, architecto natus.
+
+              O aplicativo funcionará permitindo que os usuários capturem imagens da pele por meio da câmera do celular. Essas imagens serão processadas por algoritmos de inteligência artificial, os quais identificarão padrões e características relacionados a problemas dermatológicos. Com base nessa análise, o aplicativo fornecerá aos usuários uma avaliação preliminar de possíveis condições de pele.
 
             </p>
           </div>

@@ -11,3 +11,27 @@
     }
   }
   
+
+
+  .usuario {
+    font-size: 18px;
+    
+  }
+
+  .logout {
+    border: 1px solid black;
+    transition: 0.3s;
+
+    &:hover {
+      transition: 0.3s;
+      background-color: black;
+      color: white;
+    }
+  }
+
+
+  .btn-link {
+    color: black;
+  }
+
+
