@@ -12,15 +12,13 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
-      // Rota de redirecionamento com base na autenticação
-      {
-        path: '/',
-        element: isAuthenticated ? <Home /> : <Navigate to="/login" replace />
-      },
-      { path: 'login', element: <Login /> }
+      { path: '/', element: <Navigate to="/login" replace /> },
+      { path: 'login', element: <Login /> },
+      { path: 'home', element: isAuthenticated ? <Home /> : <Navigate to="/login" replace /> }
     ]
   }
 ]);
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

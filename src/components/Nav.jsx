@@ -11,7 +11,7 @@ function Nav() {
 
     const handleLogout =()=>{
         sessionStorage.removeItem("usuarioLogado");
-        window.location.reload();
+        window.location = '/login';
     }
 
   return (

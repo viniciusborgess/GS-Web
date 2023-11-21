@@ -41,7 +41,7 @@ function Login() {
                     sessionStorage.setItem('usuarioLogado', JSON.stringify(user));
 
                     setTimeout(() => {
-                        window.location = '/';
+                        window.location = '/home';
                     }, 3000)
                 } else {
                     //se o usuario e senha for invalidos

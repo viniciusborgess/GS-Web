@@ -25,7 +25,7 @@ function Home() {
                 O aplicativo utiliza IA para analisar imagens da pele, capturadas por celulares, oferecendo avaliações preliminares de problemas dermatológicos. Integra um sistema de mapeamento de clínicas para facilitar consultas especializadas.
                 </p>
 
-                <button type="button" class="btn btn-outline-dark rounded-2 align-self-end">Mais Informações</button>
+                <button type="button" class="btn btn-outline-dark  align-self-end">Mais Informações</button>
               </div>
             </div>
           </div>

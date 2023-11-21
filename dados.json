@@ -2,11 +2,11 @@
     "usuarios":[
         {
             "usuario":"Admin",
-            "senha":123456
+            "senha":123
         },
         {
-            "usuario":"Funcionario",
-            "senha":12345
+            "usuario":"Professor ",
+            "senha":1234
         }
 
     ]
