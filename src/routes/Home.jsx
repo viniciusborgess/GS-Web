@@ -15,13 +15,13 @@ function Home() {
               src="src/img/ia.jpg"
               alt="Descrição da Imagem"
               className="img-fluid"
-            />
+              />
             <div className="row">
               <div className="col-md-5 mt-5">
                 <h1>DermaTech</h1>
               </div>
-              <div className="col-md-7 mt-5 d-flex flex-column">
-                <p>
+              <div className="col-md-7 mt-5 d-flex flex-column ">
+              <p style={{borderLeft: "1px solid black", paddingLeft: "20px"}}>
                 O aplicativo utiliza IA para analisar imagens da pele, capturadas por celulares, oferecendo avaliações preliminares de problemas dermatológicos. Integra um sistema de mapeamento de clínicas para facilitar consultas especializadas.
                 </p>
 

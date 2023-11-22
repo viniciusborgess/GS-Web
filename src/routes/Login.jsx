@@ -28,15 +28,19 @@ function Login() {
             if (response.ok) {
                 const users = await response.json();
                 //varrendo todos os usuarios
+
+
+                let user = null;
+
                 for (let i = 0; i < users.length; i++) {
                     const use = users[i];
-                    user = use;
                     //validando o usuario e senha
                     if (use.usuario == usuario.usuario && use.senha == usuario.senha) {
                         user = use;
                         break;
                     }
                 }
+
                 if (user) {
                     sessionStorage.setItem('usuarioLogado', JSON.stringify(user));
 
