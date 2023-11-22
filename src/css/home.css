@@ -8,7 +8,8 @@
   transition: transform 0.4s ease-in-out;
 }
 .imgs:hover {
-  transform: translateY(-10px); /* Ajuste a quantidade conforme necessário */
+  transform: translateY(-10px);
+  /* Ajuste a quantidade conforme necessário */
 }
 
 .usuario {
@@ -27,6 +28,44 @@
 
 .btn-link {
   color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.navbar .user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5px;
+}
+.navbar .user-info p {
+  margin-bottom: 0.5rem;
+}
+.navbar .user-info .logout {
+  margin-top: 0.5rem;
+  margin-left: 5px;
+}
+.navbar .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Ajuste o tamanho conforme necessário */
+  height: 150px;
+}
+.navbar .nav-links .btn-link {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #007bff;
+}
+.navbar .nav-links .btn-link:hover {
+  color: #0056b3;
 }
 
 /*# sourceMappingURL=home.css.map */

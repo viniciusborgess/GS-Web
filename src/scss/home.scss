@@ -1,37 +1,83 @@
 .bloco2 {
-    margin-top: 150px;
-    margin-bottom: 60px;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.imgs {
+  transition: transform .4s ease-in-out;
+
+  &:hover {
+    transform: translateY(-10px);
+    /* Ajuste a quantidade conforme necessário */
   }
-  
-  .imgs {
-    transition: transform .4s ease-in-out;
-  
-    &:hover {
-      transform: translateY(-10px); /* Ajuste a quantidade conforme necessário */
-    }
-  }
-  
+}
 
 
-  .usuario {
-    font-size: 18px;
-    
-  }
 
-  .logout {
-    border: 1px solid black;
+.usuario {
+  font-size: 18px;
+
+}
+
+.logout {
+  border: 1px solid black;
+  transition: 0.3s;
+
+  &:hover {
     transition: 0.3s;
+    background-color: black;
+    color: white;
+  }
+}
 
-    &:hover {
-      transition: 0.3s;
-      background-color: black;
-      color: white;
+
+.btn-link {
+  color: black;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5px;
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    .logout {
+      margin-top: 0.5rem;
+      margin-left: 5px;
     }
   }
 
-
-  .btn-link {
-    color: black;
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ajuste o tamanho conforme necessário */
+    height: 150px; 
   }
 
+  .nav-links {
+    .btn-link {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #007bff;
 
+      &:hover {
+        color: #0056b3;
+      }
+    }
+  }
+}

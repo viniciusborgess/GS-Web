@@ -1,5 +1,7 @@
 import {useState} from 'react'
 import {Link} from 'react-router-dom'
+import '../css/login.css';
+import '../css/home.css';
 
 
 function Nav() {
@@ -12,21 +14,22 @@ function Nav() {
     const handleLogout =()=>{
         sessionStorage.removeItem("usuarioLogado");
         window.location = '/login';
-    }
+    };
 
-  return (
-    <>
-
-    <div style={userLogado == null ? {display:"none"}:{display:"block"}}>
-    <p className='usuario m-3 d-flex justify-content-end'>
-    {userLogado !=null ? `Usuario Logado:${userLogado.usuario}`:""}</p>
-
-    <button onClick={handleLogout} className='logout m-3'>Logout</button>
-    </div>
-    
-    <Link to="/" className='btn-link m-3 text-decoration-none'>Home</Link><br></br> 
-    <Link to="/login" className='btn-link m-3 text-decoration-none'>Login</Link>
-    </>
+    return (
+      <nav className="navbar">
+          {userLogado && (
+              <div className="user-info">
+                  <p>Usuario Logado: {userLogado.usuario}</p>
+                  <button onClick={handleLogout} className='logout'>Logout</button>
+              </div>
+          )}
+          <img src="src/img/derm.png" alt="Descrição da Imagem" className="logo" />
+          <div className="nav-links">
+              <Link to="/" className='btn-link'>Home</Link>
+              <Link to="/login" className='btn-link'>Login</Link>
+          </div>
+      </nav>
   )
 }
 

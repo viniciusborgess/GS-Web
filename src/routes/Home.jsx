@@ -39,7 +39,7 @@ function Home() {
 
             <h3>O que ela fará?</h3>
             <p>
-              o aplicativo fornecerá uma avaliação preliminar indicando possíveis condições de pele. Além disso, integrará um sistema de mapeamento de clínicas dermatológicas para facilitar o agendamento de consultas especializadas.
+              O aplicativo fornecerá uma avaliação preliminar indicando possíveis condições de pele. Além disso, integrará um sistema de mapeamento de clínicas dermatológicas para facilitar o agendamento de consultas especializadas.
             </p>
 
             <h3>Como funcionará?</h3>
